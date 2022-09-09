@@ -5,4 +5,7 @@ d = { 'settings': { 'branch': 'master',
                 'doc_host': 'https://dirkkalmbach.github.io',
                 'git_url': 'https://github.com/dirkkalmbach/myDataScience',
                 'lib_path': 'myDataScience'},
-  'syms': {'myDataScience.core': {'myDataScience.core.foo': ('core.html#foo', 'myDataScience/core.py')}}}
+  'syms': { 'myDataScience.analyse': { 'myDataScience.analyse.foo': ('analyse.html#foo', 'myDataScience/analyse.py'),
+                                       'myDataScience.analyse.say_hello': ('analyse.html#say_hello', 'myDataScience/analyse.py')},
+            'myDataScience.core': {'myDataScience.core.foo': ('core.html#foo', 'myDataScience/core.py')},
+            'myDataScience.planning': {'myDataScience.planning.foo': ('planning.html#foo', 'myDataScience/planning.py')}}}
