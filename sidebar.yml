@@ -4,4 +4,5 @@ website:
       - index.ipynb
       - 00_playground.ipynb
       - 01_Planning.ipynb
-      - 12_Analyse.ipynb
+      - 60_Analyse.ipynb
+      - 61_Nonparametric.ipynb

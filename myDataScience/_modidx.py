@@ -8,4 +8,10 @@ d = { 'settings': { 'branch': 'master',
   'syms': { 'myDataScience.analyse': { 'myDataScience.analyse.foo': ('analyse.html#foo', 'myDataScience/analyse.py'),
                                        'myDataScience.analyse.say_hello': ('analyse.html#say_hello', 'myDataScience/analyse.py')},
             'myDataScience.core': {'myDataScience.core.foo': ('core.html#foo', 'myDataScience/core.py')},
-            'myDataScience.planning': {'myDataScience.planning.foo': ('planning.html#foo', 'myDataScience/planning.py')}}}
+            'myDataScience.planning': {'myDataScience.planning.foo': ('planning.html#foo', 'myDataScience/planning.py')},
+            'myDataScience.playground': { 'myDataScience.playground.HelloSayer': ( 'playground.html#hellosayer',
+                                                                                   'myDataScience/playground.py'),
+                                          'myDataScience.playground.HelloSayer.__init__': ( 'playground.html#__init__',
+                                                                                            'myDataScience/playground.py'),
+                                          'myDataScience.playground.HelloSayer.say': ('playground.html#say', 'myDataScience/playground.py'),
+                                          'myDataScience.playground.foo': ('playground.html#foo', 'myDataScience/playground.py')}}}
