@@ -2,6 +2,6 @@ website:
   sidebar:
     contents:
       - index.ipynb
-      - 00_core.ipynb
+      - 00_playground.ipynb
       - 01_Planning.ipynb
       - 12_Analyse.ipynb
