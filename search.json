@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "02_setup.html",
+    "href": "02_setup.html",
+    "title": "Setup Issues ⚙️",
+    "section": "",
+    "text": "LIBRARY\nVERSION\nIMPORT-COMMAND\nNOTES\n\n\n\n\nscikit-learn\n\nconda install -c conda-forge scikit-learn"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "myDataScience",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "myDataScience",
+    "section": "Install",
+    "text": "Install\npip install myDataScience"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "myDataScience",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  },
+  {
+    "objectID": "planning.html",
+    "href": "planning.html",
+    "title": "Planning",
+    "section": "",
+    "text": "source"
+  },
+  {
+    "objectID": "planning.html#datascience-cards",
+    "href": "planning.html#datascience-cards",
+    "title": "Planning",
+    "section": "DataScience Cards",
+    "text": "DataScience Cards"
+  },
+  {
+    "objectID": "Statistik/index.html",
+    "href": "Statistik/index.html",
+    "title": "Statistik",
+    "section": "",
+    "text": "Title\n\n\nDescription\n\n\n\n\n\n\nAnalyse\n\n\nFill in a module description here\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Statistik/analyse.html",
+    "href": "Statistik/analyse.html",
+    "title": "Analyse",
+    "section": "",
+    "text": "source"
+  },
+  {
+    "objectID": "Statistik/analyse.html#non-parametric-statistics",
+    "href": "Statistik/analyse.html#non-parametric-statistics",
+    "title": "Analyse",
+    "section": "Non-parametric Statistics",
+    "text": "Non-parametric Statistics\n\nsource\n\nsay_hello\n\n say_hello (to)\n\nSay hello to somebody\n\nsay_hello(\"Isaac\")\n\n'Hello Isaac!'\n\n\n\nassert say_hello(\"Hamel\")==\"Hello Hamel!\"\n\n\nfrom IPython.display import display,SVG\ndisplay(SVG('<svg height=\"100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\"/></svg>'))"
+  },
+  {
+    "objectID": "61_Nonparametric.html",
+    "href": "61_Nonparametric.html",
+    "title": "Nonparametrics",
+    "section": "",
+    "text": "metric data: 🤷🏼‍♀️ if bad distribution, e.g.:\n\nnot normal distributed\nnot same variance in all groups\n\nnominal & ordinal data: 👈 always!"
+  },
+  {
+    "objectID": "61_Nonparametric.html#prerequesites",
+    "href": "61_Nonparametric.html#prerequesites",
+    "title": "Nonparametrics",
+    "section": "Prerequesites",
+    "text": "Prerequesites\n\nnumber of observation in each sample is > 20 and\n2 independent samples"
+  },
+  {
+    "objectID": "61_Nonparametric.html#mann-whitney-u",
+    "href": "61_Nonparametric.html#mann-whitney-u",
+    "title": "Nonparametrics",
+    "section": "Mann-Whitney-U",
+    "text": "Mann-Whitney-U\n\nmales = [19, 22, 16, 29, 24]\nfemales = [20, 11, 17, 12]\nfemales =  [20, 22, 16, 29, 24]\n\n\nfrom scipy.stats import mannwhitneyu\nU1, p = mannwhitneyu(males, females)\nprint(p)\n\n0.5\n\n\n\nmannwhitneyu?\n\nSignature: mannwhitneyu(x, y, use_continuity=True, alternative=None)\nDocstring:\nCompute the Mann-Whitney rank test on samples x and y.\n\nParameters\n----------\nx, y : array_like\n    Array of samples, should be one-dimensional.\nuse_continuity : bool, optional\n        Whether a continuity correction (1/2.) should be taken into\n        account. Default is True.\nalternative : {None, 'two-sided', 'less', 'greater'}, optional\n    Defines the alternative hypothesis.\n    The following options are available (default is None):\n\n      * None: computes p-value half the size of the 'two-sided' p-value and\n        a different U statistic. The default behavior is not the same as\n        using 'less' or 'greater'; it only exists for backward compatibility\n        and is deprecated.\n      * 'two-sided'\n      * 'less': one-sided\n      * 'greater': one-sided\n\n    Use of the None option is deprecated.\n\nReturns\n-------\nstatistic : float\n    The Mann-Whitney U statistic, equal to min(U for x, U for y) if\n    `alternative` is equal to None (deprecated; exists for backward\n    compatibility), and U for y otherwise.\npvalue : float\n    p-value assuming an asymptotic normal distribution. One-sided or\n    two-sided, depending on the choice of `alternative`.\n\nNotes\n-----\nUse only when the number of observation in each sample is > 20 and\nyou have 2 independent samples of ranks. Mann-Whitney U is\nsignificant if the u-obtained is LESS THAN or equal to the critical\nvalue of U.\n\nThis test corrects for ties and by default uses a continuity correction.\n\nReferences\n----------\n.. [1] https://en.wikipedia.org/wiki/Mann-Whitney_U_test\n\n.. [2] H.B. Mann and D.R. Whitney, \"On a Test of Whether one of Two Random\n       Variables is Stochastically Larger than the Other,\" The Annals of\n       Mathematical Statistics, vol. 18, no. 1, pp. 50-60, 1947.\nFile:      ~/opt/miniconda3/lib/python3.7/site-packages/scipy/stats/stats.py\nType:      function"
+  },
+  {
+    "objectID": "61_Nonparametric.html#non-parametric-statistics",
+    "href": "61_Nonparametric.html#non-parametric-statistics",
+    "title": "Nonparametrics",
+    "section": "Non-parametric Statistics",
+    "text": "Non-parametric Statistics\n\ndef say_hello(to):\n    \"Say hello to somebody\"\n    return f'Hello {to}!'\n\n\nsay_hello(\"Isaac\")\n\n'Hello Isaac!'\n\n\n\nassert say_hello(\"Hamel\")==\"Hello Hamel!\"\n\n\nfrom IPython.display import display,SVG\ndisplay(SVG('<svg height=\"100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\"/></svg>'))"
+  },
+  {
+    "objectID": "playground.html",
+    "href": "playground.html",
+    "title": "PLAYGROUND 🤾‍♀️🎭🤽🏽‍♂️",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()\n\n\nsource\n\n\nHelloSayer\n\n HelloSayer (to)\n\nSay hello to to using say_hello\n\n\n\n\nflowchart LR\n  A[Hard edge] --> B(Round edge)\n  B --> C{Decision}\n\n\n\n\n\n\n\n\n\n# import DocumentTbl for rednering tables\nfrom fastcore.docments import *\n\n\nshowdoc.DocmentTbl\n\n<module 'nbdev.showdoc' from '/Users/dirkkalmbach/opt/anaconda3/envs/DataScience/lib/python3.9/site-packages/nbdev/showdoc.py'>\n\n\n\ndef draw_n(n:int, # Number of cards to draw\n           replace:bool=True # Draw with replacement?\n          )->list: # List of cards\n    \"Draw `n` cards.\"\n_dm = showdoc.DocmentTbl(draw_n)\n_dm\n\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\nn\nint\n\nNumber of cards to draw\n\n\nreplace\nbool\nTrue\nDraw with replacement?\n\n\nReturns\nlist\n\nList of cards\n\n\n\n\n\n\ndef _f(a,      # description of param a \n       b=True, # description of param b\n       c:str=None\n       ) -> int: ...\n\n_dm = showdoc.DocmentTbl(_f)\n_dm\n\n\n\n\n\nType\nDefault\nDetails\n\n\n\n\na\n\n\ndescription of param a\n\n\nb\nbool\nTrue\ndescription of param b\n\n\nc\nstr\nNone\n\n\n\nReturns\nint\n\n\n\n\n\n\n\ndef _f(a, # description of param a b=True, # description of param b c:str=None ) -> int: …\n_dm = DocmentTbl(_f) _dm\nThis version is displayed inline: \\(\\sum_{i=1}^{k+1}i\\) . You can include text before and after."
+  },
+  {
+    "objectID": "geoanalysis.html",
+    "href": "geoanalysis.html",
+    "title": "Geo Analysis 🌎",
+    "section": "",
+    "text": "to caclculate area of polygon by building triangles\n\n\nimport numpy as np\nfrom scipy.spatial import Delaunay\nfrom scipy.spatial import distance\nimport matplotlib.pyplot as plt\n\n\npoints = np.array([\n  [2, 4],\n  [3, 4],\n  [3, 0],\n  [2, 2],\n  [4, 1],\n  [3, 3]\n])\n\nsimplices = Delaunay(points).simplices\n\nplt.triplot(points[:, 0], points[:, 1], simplices)\nplt.scatter(points[:, 0], points[:, 1], color='r')\n\nplt.show()\n\n\n\n\n\nsimplices #indices of points for all triangles\n\narray([[2, 1, 0]], dtype=int32)\n\n\n\n# Calculate Area\narea=0\nfor triangle in simplices:\n    a = distance.euclidean(points[triangle[0]], points[triangle[1]])\n    b = distance.euclidean(points[triangle[1]], points[triangle[2]])\n    c = distance.euclidean(points[triangle[0]], points[triangle[2]])\n    area += (a+b+c) / 2\narea\n\n13.206842679766403"
+  },
+  {
+    "objectID": "geoanalysis.html#distance-between-two-geographical-points",
+    "href": "geoanalysis.html#distance-between-two-geographical-points",
+    "title": "Geo Analysis 🌎",
+    "section": "Distance between two geographical points 🌎🚶🏻‍♂️🌏",
+    "text": "Distance between two geographical points 🌎🚶🏻‍♂️🌏\n\nEuclidian Distance for flat surface\nHaversine Distance for earth\n\n\n🧐 As the Earth is nearly spherical, the haversine formula provides a good approximation of the distance between two points of the Earth surface, with a less than 1% error on average.\n\n\nfrom sklearn.metrics.pairwise import haversine_distances\nfrom math import radians\n\n\n# LON,LAT\nA = [121.469170, 31.224361] #Shanghai\nB = [52.520008, 13.404954] #Berlin\nA_in_radians = [radians(_) for _ in A]\nB_in_radians = [radians(_) for _ in B]\nresult = haversine_distances([A_in_radians, B_in_radians])\nresult = result * 6371  # multiply by Earth radius to get kilometers\nprint(f\"Distance: {result[0,1]} km\")\n\nDistance: 7562.431880698887 km\n\n\n📚 sklearn.metrics.pairwise.haversine_distances"
+  },
+  {
+    "objectID": "analyse.html",
+    "href": "analyse.html",
+    "title": "Analyse",
+    "section": "",
+    "text": "source"
+  },
+  {
+    "objectID": "analyse.html#huhu",
+    "href": "analyse.html#huhu",
+    "title": "Analyse",
+    "section": "Huhu",
+    "text": "Huhu\n\nsource\n\nsay_hello\n\n say_hello (to)\n\nSay hello to somebody\n\nsay_hello(\"Isaac\")\n\n'Hello Isaac!'\n\n\n\nassert say_hello(\"Hamel\")==\"Hello Hamel!\"\n\n\nfrom IPython.display import display,SVG\ndisplay(SVG('<svg height=\"100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\"/></svg>'))"
+  }
+]
