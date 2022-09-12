@@ -2,9 +2,13 @@ website:
   sidebar:
     contents:
       - index.ipynb
+      - 000_TEMPLATE.ipynb
       - 00_playground.ipynb
       - 01_Planning.ipynb
       - 02_setup.ipynb
+      - 08_Basics.ipynb
+      - 12_Analyse.ipynb
+      - 20_Pandas.ipynb
       - 60_Analyse.ipynb
       - 61_Nonparametric.ipynb
       - 66_GeoAnlalysis.ipynb
