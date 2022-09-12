@@ -7,6 +7,7 @@ website:
       - 01_Planning.ipynb
       - 02_setup.ipynb
       - 08_Basics.ipynb
+      - 11_versuch.ipynb
       - 12_Analyse.ipynb
       - 20_Pandas.ipynb
       - 60_Analyse.ipynb
