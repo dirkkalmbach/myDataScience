@@ -24,4 +24,5 @@ d = { 'settings': { 'branch': 'master',
                                           'myDataScience.playground.Number.__repr__': ( 'playground.html#__repr__',
                                                                                         'myDataScience/playground.py'),
                                           'myDataScience.playground.foo': ('playground.html#foo', 'myDataScience/playground.py')},
-            'myDataScience.template': {'myDataScience.template.foo': ('template.html#foo', 'myDataScience/template.py')}}}
+            'myDataScience.template': {'myDataScience.template.foo': ('template.html#foo', 'myDataScience/template.py')},
+            'myDataScience.versuch': {'myDataScience.versuch.foo': ('versuch.html#foo', 'myDataScience/versuch.py')}}}
